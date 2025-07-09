@@ -13,7 +13,7 @@ function fetchWorkTimeData() {
   const users = [
     { name: "User1", wakaApiKey: "YOUR_WAKATIME_API_KEY_1", clockifyUserId: "CLOCKIFY_USER_ID_1" },
     { name: "User2", wakaApiKey: "YOUR_WAKATIME_API_KEY_2", clockifyUserId: null },
-    { name: "User3", wakaApiKey: "YOUR_WAKATIME_API_KEY_3", clockifyUserId: null },
+    { name: "User3", wakaApiKey: null, clockifyUserId: "CLOCKIFY_USER_ID_3" },
     { name: "User4", wakaApiKey: null, clockifyUserId: null }
   ];
 
